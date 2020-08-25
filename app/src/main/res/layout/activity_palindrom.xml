@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PalindromActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginTop="16dp"
+        >
+
+        <EditText
+            android:id="@+id/etMasukkanKata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan Kata"
+            android:layout_marginRight="16dp"
+            android:inputType="text"
+            />
+        <Button
+            android:id="@+id/btnTampilkan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Proses"
+            android:textAllCaps="false"
+
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/hasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Hasil: "
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="8dp"
+        />
+
+    <TextView
+        android:id="@+id/tvPalindrome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="8dp"
+        />
+
+    <TextView
+        android:id="@+id/tvKonsonan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="8dp"
+        />
+
+    <TextView
+        android:id="@+id/tvVocal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+               android:textColor="@android:color/black"
+        android:layout_marginLeft="8dp"
+        />
+</LinearLayout>

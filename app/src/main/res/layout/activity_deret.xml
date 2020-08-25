@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeretActivity"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginTop="16dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Counter"
+            android:textColor="@android:color/black"
+            android:layout_marginRight="16dp"
+            />
+        <EditText
+            android:id="@+id/etMasukkanAngka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan Angka"
+            android:layout_marginRight="16dp"
+            android:inputType="number"
+            />
+        <Button
+            android:id="@+id/btnTampilkanDeret"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tampilkan Deret"
+            android:textAllCaps="false"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginTop="16dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Deret Genap"
+            android:textColor="@android:color/black"
+            android:layout_marginRight="16dp"
+            />
+        <EditText
+            android:id="@+id/etDeretGenap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:enabled="false"
+            android:layout_marginRight="16dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginTop="16dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Deret Ganjil"
+            android:textColor="@android:color/black"
+            android:layout_marginRight="16dp"
+            />
+        <EditText
+            android:id="@+id/etDeretGanjil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:enabled="false"
+            android:layout_marginRight="16dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginTop="16dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Fibonacci"
+            android:textColor="@android:color/black"
+            android:layout_marginRight="16dp"
+            />
+        <EditText
+            android:id="@+id/etDeretFibonnaci"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:enabled="false"
+            android:layout_marginRight="16dp"/>
+    </LinearLayout>
+
+</LinearLayout>
